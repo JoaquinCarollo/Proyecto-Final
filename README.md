@@ -1,13 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# PreEntrega3Carollo
-# PreEntrega3Carollo
-# Proyecto-Final
-# Proyecto-Final
-# Proyecto-Final
+Esta aplicación es un E-commerce que se orienta a la compra y venta de comics y mangas para todos los interesados en la ciencia ficción. Tiene una página general que muestra la principal lista de productos. También tiene otras páginas que muestra los productos por categoría, y otra página en la que se puede ver los detalles de los productos y tener la opción de agregarlos al carrito de compras. Además está la página del carrito, con la cual se puede finalizar la compra y/o quitar los productos que al final no se quieren comprar.
+Los productos que se muestran están almacenados en una base de datos de Firestore, sitio en el cual también hay otra base de datos donde se guarda la información de los clientes que compran nuestro productos.
+Para iniciar la aplicación se tiene que escribir en la terminal de la aplicación "npm install", para instalar las independencias, y "npm run dev" para correrla
