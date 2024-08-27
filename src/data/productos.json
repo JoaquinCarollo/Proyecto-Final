@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Batman y Robin",
+    "category": "Comic",
+    "description": "Acompaña al Dúo Dinámico en su lucha contra el crimen en Gotham",
+    "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDr_WoAhZF-16aV6TwXJsmW7X1Dxkd19-0Q&s",
+    "price": "$12.99"
+  },
+  {
+    "id": 2,
+    "title": "Superman",
+    "category": "Comic",
+    "description": "Descubre las hazañas del Hombre de Acero en su misión de proteger Metrópolis",
+    "pictureUrl": "https://static.dc.com/dc/files/default_images/SM_01_300-001_HD_5b85ed26232a96.67207200.jpg",
+    "price": "$10.99"
+  },
+  {
+    "id": 3,
+    "title": "Spider-Man",
+    "category": "Comic",
+    "description": "Sigue las emocionantes aventuras de Peter Parker como el asombroso Spider-Man",
+    "pictureUrl": "https://cdn.marvel.com/content/2x/ultsm2024001_cover_1.jpg",
+    "price": "$14.99"
+  },
+  {
+    "id": 4,
+    "title": "Flash",
+    "category": "Comic",
+    "description": "Explora las aventuras del hombre más rápido del mundo mientras protege Central City",
+    "pictureUrl": "https://m.media-amazon.com/images/I/81xPL0TBbNL._AC_UF894,1000_QL80_.jpg",
+    "price": "$11.99"
+  },
+  {
+    "id": 5,
+    "title": "Invincible",
+    "category": "Comic",
+    "description": "Sumérgete en la historia de un joven superhéroe en un mundo lleno de desafíos y dilemas",
+    "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Invincible_Issue_75.jpeg",
+    "price": "$15.99"
+  },
+  {
+    "id": 6,
+    "title": "Dragon Ball",
+    "category": "Manga",
+    "description": "Únete a Goku en su búsqueda de las legendarias Esferas del Dragón",
+    "pictureUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/55/59/5559d5d76baa2bceb855560c6ac83276.jpg",
+    "price": "$9.99"
+  },
+  {
+    "id": 7,
+    "title": "Naruto",
+    "category": "Manga",
+    "description": "Acompaña a Naruto Uzumaki en su viaje para convertirse en el Hokage más fuerte",
+    "pictureUrl": "https://prodimage.images-bn.com/pimages/9781569319000_p0_v1_s1200x630.jpg",
+    "price": "$9.99"
+  },
+  {
+    "id": 8,
+    "title": "Captain Tsubasa",
+    "category": "Manga",
+    "description": "Sigue los sueños y desafíos de Tsubasa Ozora en el mundo del fútbol",
+    "pictureUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1283530744i/9218107.jpg",
+    "price": "$8.99"
+  },
+  {
+    "id": 9,
+    "title": "Bleach",
+    "category": "Manga",
+    "description": "Explora las batallas épicas de Ichigo Kurosaki como un sustituto de Shinigami",
+    "pictureUrl": "https://images.cdn1.buscalibre.com/fit-in/520x520/88/39/7650a32202139223b0b0c525d4ef3c6a.jpg",
+    "price": "$9.99"
+  },
+  {
+    "id": 10,
+    "title": "Shingeki no Kyojin",
+    "category": "Manga",
+    "description": "Descubre la lucha desesperada de la humanidad contra los temibles titanes",
+    "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUVwxCg_FRg9Q9NWRuXTgeYODhtB0fGGi-w&s",
+    "price": "$10.99"
+  }
+]
