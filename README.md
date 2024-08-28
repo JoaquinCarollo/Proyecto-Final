@@ -6,3 +6,5 @@ Para iniciar la aplicación se tiene que seguir los siguientes pasos
 2. Extraer los elementos del mismo archivo
 3. En la terminal del proyecto ingresar "npm i" para instalar los iniciadores
 4. En la misma terminal ingresar "npm run dev" para correr la app
+
+Muchas gracias por visitar este proyecto, espero que lo disfruten.
