@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
 .listaDeProductos {
   display: flex;
   justify-content: space-around;
@@ -69,4 +72,81 @@
 .modificadorDeCantidad .irAlCarrito:hover {
   background-color: white;
   color: rgb(48, 48, 255);
+}
+table {
+  width: 100%;
+}
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  height: 20rem;
+  margin: 1rem 0 1rem 0;
+  background-color: rgb(187, 187, 187);
+}
+td {
+  border: 1px solid black;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+td img {
+  height: 100%;
+  width: 100%;
+}
+td button {
+  background-color: rgb(0, 191, 255);
+  color: white;
+  border: solid white;
+  border-radius: 10px;
+}
+td button:hover {
+  background-color: white;
+  color: rgb(0, 191, 255);
+  border: solid rgb(0, 191, 255);
+}
+.botonVaciar {
+  background-color: white;
+  color: gray;
+  border: solid rgb(220, 220, 220);
+  border-radius: 10px;
+}
+.botonVaciar:hover {
+  background-color: gray;
+  color: white;
+  border: solid rgb(220, 220, 220);
+  border-radius: 10px;
+}
+.totalYCliente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.totalYCliente span {
+  font-size: 25px;
+}
+.totalYCliente form {
+  display: flex;
+  flex-direction: column;
+}
+.totalYCliente form div {
+  display: flex;
+  flex-direction: column;
+}
+form button {
+  margin-top: 1rem;
+  background-color: white;
+  color: gray;
+  border: solid rgb(220, 220, 220);
+  border-radius: 10px;
+}
+form button:hover {
+  background-color: gray;
+  color: white;
+  border: solid rgb(220, 220, 220);
+  border-radius: 10px;
 }

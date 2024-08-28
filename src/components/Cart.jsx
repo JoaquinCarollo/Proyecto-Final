@@ -37,40 +37,60 @@ export const Cart = () => {
         setBuyer(initialValues);
       });
   };
-  if (items.length === 0) return "VE A LA HOME";
+  if (items.length === 0) return "Sin productos por el momento";
   return (
     <>
-      <button onClick={reset}>Vaciar</button>
+      <button onClick={reset} className="botonVaciar">
+        Vaciar
+      </button>
       {items.map((item) => {
         return (
-          <div key={item.id}>
-            <h1>{item.title}</h1>
-            <img src={item.pictureUrl} />
-            <p>{item.quantity}</p>
-            <p onClick={() => removeItem(item.id)}>X</p>
-          </div>
+          <table>
+            <div key={item.id}>
+              <tr>
+                <td>
+                  <h1>{item.title}</h1>
+                </td>
+                <td>
+                  <img src={item.pictureUrl} />
+                </td>
+                <td>
+                  <h3>{item.quantity}</h3>
+                </td>
+                <td>
+                  <button onClick={() => removeItem(item.id)}>
+                    Quitar producto
+                  </button>
+                </td>
+              </tr>
+            </div>
+          </table>
         );
       })}
-      <br />
-      <div>Total ${total}</div>
-      <br />
-      <form>
+      <section className="totalYCliente">
+        <br />
         <div>
-          <label>Nombre</label>
-          <input value={buyer.name} name="name" onChange={handleChange} />
+          <span>Total ${total}</span>
         </div>
-        <div>
-          <label>Teléfono</label>
-          <input value={buyer.phone} name="phone" onChange={handleChange} />
-        </div>
-        <div>
-          <label>Email</label>
-          <input value={buyer.mail} name="email" onChange={handleChange} />
-        </div>
-        <button type="button" onClick={sendOrder}>
-          Comprar
-        </button>
-      </form>
+        <br />
+        <form>
+          <div>
+            <label>Nombre</label>
+            <input value={buyer.name} name="name" onChange={handleChange} />
+          </div>
+          <div>
+            <label>Teléfono</label>
+            <input value={buyer.phone} name="phone" onChange={handleChange} />
+          </div>
+          <div>
+            <label>Email</label>
+            <input value={buyer.mail} name="email" onChange={handleChange} />
+          </div>
+          <button type="button" onClick={sendOrder}>
+            Comprar
+          </button>
+        </form>
+      </section>
     </>
   );
 };
